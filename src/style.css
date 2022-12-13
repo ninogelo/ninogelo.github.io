@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+      Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body > header {
+    display: flex;
+    gap: 95px;
+    margin-top: 42px;
+    margin-left: 99px;
+  }
+
+#logo{
+  width: 93px;
+  height: 49px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48.54px;
+}
+body > header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 95px;
+    line-height: 49px;
+}
+  
+
+nav a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+  }
+  
+nav a:hover {
+    border-bottom: 2px solid #ffffff;
+  }
+
+header{
+    display: flex;
+  }
+#Hero>div>p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top:57.33px ;
+  }
+h1{
+    font-size: 56.75px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    line-height: 62.43px;
+    margin: 10.5px 0;
+  }
+
+  main #Hero > div {
+    width: 658px;
+    margin-right: -200px;
+  }
+
+  main #Hero {
+    margin: 90px 97px;
+  }
+
+  #nft{
+    width:  505px;
+    height: 320px;
+    border-radius: 5px;
+  }
+
+#explore{
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  height: 20px;
+  margin-top: 30px;
+}
+
+article > ul{
+  margin-top: 30px;
+  display: flex;
+  gap: 35px;
+  list-style-type: none;
+}
+
+article ul li{
+  color: #828282;
+}
+
+.bold{
+  font-size: 36px;
+  font-weight: 600;
+}
+
+main{
+  display: flex;
+  justify-content: space-between;
+}
+
+section{
+  margin: 90px 97px;
+}
+
+#Sidekick h2{
+  width: 367px;
+  height: 60px;
+  font-size: 25px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
