@@ -29,7 +29,13 @@ body > header ul {
     line-height: 49px;
 }
   
+#Hero{
+  margin: 0px;
+}
 
+#Sidekick{
+  margin: 0px;
+}
 nav a {
     text-decoration: none;
     font-size: 16px;
@@ -61,9 +67,6 @@ h1{
     margin-right: -200px;
   }
 
-  main #Hero {
-    margin: 90px 97px;
-  }
 
   #nft{
     width:  505px;
@@ -98,6 +101,8 @@ article ul li{
 main{
   display: flex;
   justify-content: space-between;
+  margin: 60px 97px;
+
 }
 
 section{
@@ -109,4 +114,74 @@ section{
   height: 60px;
   font-size: 25px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#gradient{
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  z-index: -1;
+  height: 100%;
+}
+
+#bidding > section{
+  margin: 30px 0px;
+}
+
+#bidding{
+  display: flex;
+  gap: 50px;
+}
+
+#bid{
+  width: 120px;
+}
+
+#bid > h2{
+  height: 35px;
+  letter-spacing: 2px;
+}
+
+#timer{
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+}
+#timer li{
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#desc{
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+#desc li{
+  color: black;
+  font-size: 16px;
+}
+
+#buttons {
+  margin: 0px;
+}
+
+#buttons button{
+  width: 170px;
+  height: 40px;
+}
+
+#btn1{
+  background-color: #4B7EFF;
+  border: #4B7EFF solid 2px;
+  border-radius: 5px;
+  color: white;
+}
+
+#btn2{
+  background-color: white;
+  border: #4B7EFF solid 2px;
+  border-radius: 5px;
+  color: #4B7EFF;
 }
